@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LK0LtqDFF2ONEKAPSW59o1rJEO4xy3S7yfscYbKk2o0eUScGmWJRAYsp0ommpkzXG4SErK8Y9UGUuEzvwr9fjg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MONSTER-PC\\Desktop\\ProjectRedis\\Model\\Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MONSTER-PC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\MONSTER-PC\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

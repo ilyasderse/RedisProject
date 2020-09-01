@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<style>
+    div {
+        margin-top: 10px;
+    }
+</style>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Redis Project</span>
+    </nav>
+    <!--  <input type="button" value="Add a Customer" onclick="AddCustomer()" />   -->
+
+    @{
+        if (ViewBag.Customers != null)
+        {
+
+            <table class="table table-bordered" style="width:350px">
+                <thead>
+                    <tr>
+                        <th> Id </th>
+                        <th> Customer Name </th>
+                        <th style="width:140px;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in (List<Model.Customers>)ViewBag.Customers)
+                    {
+                        <tr>
+                            <td>
+                                @item.Id
+                            </td>
+                            <td>
+                                @item.Name
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "EditCustomer", new { id = item.Id }, new { @class = "btn btn-primary btn-sm" })                              
+                                @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-danger btn-sm" })
+
+                            </td>
+                        </tr>
+
+                    }
+
+                </tbody>
+            </table>
+
+        }
+    }
+
+    <button type="button" class="btn btn-primary btn-sm ml-1" onclick="AddCustomer()">Add a Customer</button>
+
+    <div id="addCustomer" class="mt-3 ml-1">
+        @using (Html.BeginForm("AddCustomer", "Home", FormMethod.Post))
+        {
+            <input type="text" name="Name" id="Name" placeholder="Customer Name" /><br />
+            <button type="button" class="btn btn-success btn-sm mt-1">SAVE</button>
+            
+         }
+    </div>
+
+    <script type="text/javascript">
+        hideDivs();
+        function AddCustomer() {
+            hideDivs();
+            document.getElementById('addCustomer').style.display = 'block';
+        }
+        function hideDivs() {
+            var divs = document.getElementsByTagName('div');
+            for (var i = 0; i < divs.length; i++)
+                divs[i].style.display = "none";
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>

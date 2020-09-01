@@ -1,0 +1,9 @@
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\Model\bin\Debug\netstandard2.0\Model.deps.json
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\Model\bin\Debug\netstandard2.0\Model.dll
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\Model\bin\Debug\netstandard2.0\Model.pdb
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\Model\obj\Debug\netstandard2.0\Model.csprojAssemblyReference.cache
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\Model\obj\Debug\netstandard2.0\Model.AssemblyInfoInputs.cache
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\Model\obj\Debug\netstandard2.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\Model\obj\Debug\netstandard2.0\Model.dll
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\Model\obj\Debug\netstandard2.0\Model.pdb

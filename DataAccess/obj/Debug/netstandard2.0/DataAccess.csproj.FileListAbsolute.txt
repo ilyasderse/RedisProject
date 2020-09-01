@@ -1,0 +1,12 @@
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\bin\Debug\netstandard2.0\Model.dll
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\bin\Debug\netstandard2.0\Model.pdb
+C:\Users\MONSTER-PC\Desktop\ProjectRedis\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
